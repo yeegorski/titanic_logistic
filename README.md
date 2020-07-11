@@ -19,5 +19,13 @@ I checked how complete the training data set was, and taking into account the mi
 ![alt text](https://github.com/yeegorski/titanic_logistic/blob/master/pclass_countplot.png "Survivals by Passenger Class")
 ![alt text](https://github.com/yeegorski/titanic_logistic/blob/master/embark_countplot.png "Survivals by Port")
 
+## Data Cleaning
+* Created the *Title* variable by taking the passengers' titles from the *Name* variable
+* Grouped the rare titles into one category (e.g. Lady, Sir, Major -> Rare), and renamed the French titles into the English ones (e.g. Mlle -> Miss, Mme -> Mrs)
+* Imputed the missing *Age* values by imputing the average age of each passenger class and title group
+* Mapped the categorical variables *Sex*, *Embarked*, *Title*
+
+
+
 
 
