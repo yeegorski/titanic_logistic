@@ -1,3 +1,4 @@
+![](https://github.com/yeegorski/titanic_logistic/blob/master/Titanic.png)
 # Titanic: Machine Learning from Disaster
 Here I present my solution to the famous Titanic machine learning competition.
 
