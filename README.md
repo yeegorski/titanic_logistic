@@ -8,8 +8,8 @@ Here I present my solution to the famous Titanic machine learning competition.
 * Tested the data on Logistic, Support Vector, K-Nearest Neighbors, and Random Forest Regressors to reach the best accuracy score
 
 ## Code and Resources Used
-**Python Version:** 3.7
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn
+**Python Version:** 3.7  
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn  
 **Data set:** https://www.kaggle.com/c/titanic
 
 ## EDA
