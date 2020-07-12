@@ -23,7 +23,18 @@ I checked how complete the training data set was, and taking into account the mi
 * Created the *Title* variable by taking the passengers' titles from the *Name* variable
 * Grouped the rare titles into one category (e.g. Lady, Sir, Major -> Rare), and renamed the French titles into the English ones (e.g. Mlle -> Miss, Mme -> Mrs)
 * Imputed the missing *Age* values by imputing the average age of each passenger class and title group
-* Mapped the categorical variables *Sex*, *Embarked*, *Title*
+
+## Model Building and Performance
+* Transformed the categorical variables *Sex*, *Embarked*, *Title* into dummy variables
+* Split the data into train and test sets with a test size of 30%
+
+I tried four different models (along with the respective accuracy scores):
+* **Logistic Regression**: 85.77%
+* **Support Vector Machines**: 71.16%
+* **K-Nearest Neighbors**: 71.54%
+* **Random Forest**: 84.64%
+
+
 
 
 
